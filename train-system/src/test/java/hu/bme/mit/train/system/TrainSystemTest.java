@@ -52,7 +52,9 @@ public class TrainSystemTest {
 
 	
 	@Test
-	public void Ujtesz() {
-		
+	public void Ujteszt() {
+		Assert.assertEquals(0, 0);
 	
-}}
+}
+	
+}
