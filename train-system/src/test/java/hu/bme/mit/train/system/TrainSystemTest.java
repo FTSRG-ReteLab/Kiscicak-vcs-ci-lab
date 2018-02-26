@@ -53,7 +53,6 @@ public class TrainSystemTest {
 	
 	@Test
 	public void Ujtesz() {
-		int x=0;
-		x=x+1;
+		
 	
 }}
