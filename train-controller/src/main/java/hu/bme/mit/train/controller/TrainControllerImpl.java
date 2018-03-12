@@ -10,20 +10,9 @@ public class TrainControllerImpl implements TrainController {
 	private int step = 0;
 	private int referenceSpeed = 0;
 	private int speedLimit = 0;
-	private Thread thread;
 
-	public TrainControllerImpl(){
-		thread = new Thread(){
-			public void run(){
-				followSpeed();
-				try {
-					thread.sleep(2000);
-				} catch (InterruptedException e){
-					e.printStackTrace();
-				}
-			}
-		};
-	}
+
+
 
 
 	@Override
